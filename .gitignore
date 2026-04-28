@@ -1,5 +1,12 @@
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.backup
+
+# Large / unwanted files
 *.zip
+*.tar
+*.log
+
+# Mac
 .DS_Store
