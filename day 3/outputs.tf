@@ -30,5 +30,15 @@ output "db_subnet_group_name" {
   value = module.database.db_subnet_group_name
 }
 
+output "alb_dns_name" {
+  value = module.compute.alb_dns_name
+}
 
-  
+output "rds_endpoint" {
+  value = module.database.rds_endpoint
+}
+
+output "cloudtrail_bucket_name" {
+  value = module.logging.cloudtrail_bucket_name
+}
+
